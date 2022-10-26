@@ -44,7 +44,7 @@ Same as example 1, but using bayer dithering and no contrast change.
 
 The very fine emulator Zesarux plays the files at 50 or 60 frames per second, so the emulated SD-card is very fast.
 
-My trusty go-to emulator EightyOne v1.29 failed to play the files, regardless of the settings I tested.
+My trusty go-to emulator EightyOne v1.29 now plays the files, but slower than the real thing.
 
 ## History
 
@@ -62,4 +62,5 @@ The code I created for this project is licensed under Creative Commons CC0 1.0 U
 
 ## Contact
 
-Mail: <adam.klotblixt@gmail.com>
+Mail: adam.klotblixt@gmail.com<br>
+Github: http://github.com/NollKollTroll/zeddy-video-jukebox
