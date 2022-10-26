@@ -164,10 +164,11 @@ RequestAndRead256BytesFromFileToHL:
 		end repeat
 		in	a,(c)
 	jp	m,.DelayStart
-	//prepare for read using magic turbo-mode
+	//prepare zxpand buffer for read
 	ld	bc,PRT0
-	ld	a,42
+	ld	a,0
 	out	(c),a
+	ld	b,PRT1/256
 	//waste cycles
 	repeat 6
 		nop
